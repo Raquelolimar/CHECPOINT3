@@ -47,10 +47,8 @@ print(new_sentence.upper())
 
 
 
-sentence =  "this dog is white"
-sentence_two = sentence.replace("this", "")
-print(sentence_two)
-print(new_sentence.upper() + sentence_two)
+two_sentence = new_sentence.upper() + starter_sentence[4:] 
+print(two_sentence)
 
 
 8
