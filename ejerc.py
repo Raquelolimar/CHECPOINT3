@@ -34,14 +34,22 @@ list_names = names.split(",")
 print(list_names)
 
 7
-sentence = "this dog is white" 
-print(sentence[:4].upper())
+
+starter_sentence = "this dog is white"
+frist_word = starter_sentence[0:4]
+new_sentence = frist_word
+print(new_sentence)
+
+starter_sentence = "this dog is white"
+frist_word = starter_sentence[0:4]
+new_sentence = frist_word
+
+print(new_sentence.upper())
 
 
-sentence = "this dog is white"
-sentence_two= sentence[:4].upper()
-
-print(sentence_two, sentence)
+starter_sentence = "this dog is white"
+new_sentence = "THIS" + starter_sentence[4:]
+print(new_sentence)
 
 
 8
