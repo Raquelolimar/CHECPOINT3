@@ -2,9 +2,9 @@
 sentence = "this dog is white"
 number = 12
 my_list = [ 1, 2, 3]
-boleano = 5<6
+lunch_completed = True
 
-print(sentence,number, my_list, boleano)
+print(sentence,number, my_list, lunch_completed)
 
 2
 starter_sentence= "this dog is white"
@@ -21,9 +21,9 @@ print( my_list [0])
 
 4
 number = 12
-number_two = 10
+number_two = [12 + 10]
 
-print(number + number_two)
+print(number_two)
 
 5
 
@@ -38,21 +38,19 @@ print(list_names)
 
 7
 
-starter_sentence = "this dog is white"
-frist_word = starter_sentence[0:4]
-new_sentence = frist_word
-print(new_sentence)
 
 starter_sentence = "this dog is white"
 frist_word = starter_sentence[0:4]
 new_sentence = frist_word
 
-print(new_sentence.upper()) 
+print(new_sentence.upper())
 
 
-starter_sentence = "this dog is white"
-new_sentence = "THIS" + starter_sentence[4:]
-print(new_sentence)
+
+sentence =  "this dog is white"
+sentence_two = sentence.replace("this", "")
+print(sentence_two)
+print(new_sentence.upper() + sentence_two)
 
 
 8
