@@ -11,6 +11,7 @@ starter_sentence= "this dog is white"
 
 print(starter_sentence[:3])
 
+
 3
 my_list = [ 1, 2, 3]
 print( my_list [0])
