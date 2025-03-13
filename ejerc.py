@@ -11,6 +11,9 @@ starter_sentence= "this dog is white"
 
 print(starter_sentence[:3])
 
+new_sentence = starter_sentence[:3] 
+print(new_sentence)
+
 
 3
 my_list = [ 1, 2, 3]
@@ -44,7 +47,7 @@ starter_sentence = "this dog is white"
 frist_word = starter_sentence[0:4]
 new_sentence = frist_word
 
-print(new_sentence.upper())
+print(new_sentence.upper()) 
 
 
 starter_sentence = "this dog is white"
